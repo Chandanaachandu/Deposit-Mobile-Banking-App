@@ -1,6 +1,6 @@
-# Kompas Bank – Deposit Mobile Banking App
+# Deposit Mobile Banking App
 
-Native mobile banking app for **Kompas Bank (Denmark)**. Customers open and manage **deposit/savings accounts**, move money between their Basis account and their savings, and handle their profile, all secured with **MitID** login.
+Native mobile banking app for a **bank in Denmark**. Customers open and manage **deposit/savings accounts**, move money between their Basis account and their savings, and handle their profile, all secured with **MitID** login.
 
 The app is built natively on **both platforms**:
 
@@ -110,7 +110,7 @@ Both apps use the same backend REST APIs, the same MitID login flow, the same de
 ## Project structure (Android)
 
 ```
-app/src/main/java/com/auracloud/depositmobilebanking/
+app/src/main/java/<package>/depositmobilebanking/
 ├── data/
 │   ├── data_source/      # Retrofit API interface
 │   ├── remote/           # AuthInterceptor (headers, token refresh)
@@ -157,7 +157,7 @@ app/src/main/java/com/auracloud/depositmobilebanking/
 
 ## My role
 
-I worked on this project as an **Application Developer at Auracloud Technologies**, building the app natively for **Android (Kotlin, Android Studio)** and **iOS (Swift, SwiftUI, Xcode)**:
+I worked on this project as an **Application Developer**, building the app natively for **Android (Kotlin, Android Studio)** and **iOS (Swift, SwiftUI, Xcode)**:
 - converted UI/UX designs into screens on both platforms, following MVVM;
 - integrated the REST APIs and the MitID / OAuth redirect login;
 - built the Home, deposit accounts, transfers, KYC and profile features;
